@@ -9,7 +9,7 @@
     "pod": "cd ios && bundle exec pod install --repo-update",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "start": "react-native start"
+    "start": "react-native start --port 3000"
   },
   "dependencies": {
     "@ledgerhq/device-management-kit": "workspace:*",
